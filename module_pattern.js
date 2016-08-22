@@ -3,7 +3,7 @@ var ray = (function() {
         say: 'hello',
         speed: 'normal'
     }
-
+    // create a dot chaining pattern
     return {
         speak: function() {
             var myArguments = arguments[0] || '';
