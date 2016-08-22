@@ -3,9 +3,10 @@ var ray = (function(){
 
 	return {
 		speak: function() {
-			console.log('hello');
+			var myArg = arguments[0] || '';
+			console.log(myArg.say);
 		}
 	}
 })();
 
-ray.speak();
+ray.speak({ say: 'howyd' });
